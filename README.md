@@ -1,8 +1,6 @@
-My hands-on learning in Besu QBFT platform engineering, covering Kubernetes operations, validator networking, observability, and troubleshooting concepts.
-
 # Besu QBFT Operations Casebook
 
-This repository is a documentation-only casebook of my hands-on Besu QBFT platform engineering experiments, local setup notes, failure-mode simulations, mock investigations, and troubleshooting observations.
+This repository is a documentation-only casebook capturing my practical learning in Besu QBFT platform engineering. It records my local setup notes, platform experiments, failure-mode simulations, mock investigations, and troubleshooting observations across Kubernetes operations, validator networking, observability, and blockchain platform reliability.
 
 ---
 
@@ -131,3 +129,24 @@ The important Besu ports in this local setup are:
 | `9545` | Metrics endpoint for Prometheus |
 
 ---
+
+
+## 5. Ethical Use of Open Source
+
+This repository uses an open-source project as a learning foundation.
+
+I do not claim that I created the original `quorum-kubernetes` project.
+
+The upstream project belongs to its original authors and contributors.
+
+This repository is my own documentation of:
+
+```text
+local setup decisions
+configuration changes
+platform observations
+failure-mode simulations
+mock investigations
+troubleshooting workflows
+lessons learned
+```
