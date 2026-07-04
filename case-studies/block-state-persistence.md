@@ -26,7 +26,7 @@ The network successfully produced blocks before restart. At around block 104, th
 - Reinstalled genesis, bootnodes and validators together to ensure consistent QBFT network configuration.
 - Validated that Besu detected the existing database and resumed from a later block height instead of block 0.
 
-![Investigation flow: layered platform debugging](qbft_assets/image1.png)
+![Investigation flow: layered platform debugging](case-studies/assets/block-state-persistence/image1.png)
 
 ## 4. Challenges / Blockers and Resolutions
 
@@ -39,7 +39,7 @@ The network successfully produced blocks before restart. At around block 104, th
 
 ## 5. Storage Architecture Before / After
 
-![Storage architecture before and after](qbft_assets/image2.png)
+![Storage architecture before and after](case-studies/assets/block-state-persistence/image2.png)
 
 ## 6. Key Helm Changes Made
 
